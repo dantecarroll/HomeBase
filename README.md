@@ -1,2 +1,2 @@
 # HomeBase
-Learning Projects
+Learning Projects from my web development journey
