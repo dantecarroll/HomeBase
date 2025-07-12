@@ -22,7 +22,7 @@ h2 {
 
 /* Set smaller font size for subheadings */
 h3 {
-  font-size: 1.5em;
+  font-size: 1.em;
 }
 
 article {
@@ -36,7 +36,6 @@ article div {
 
 p {
   line-height: 1.5;
-  text align: left
 }
 
 /* The div container constrains the content width within the main container to 600px */
@@ -49,6 +48,8 @@ img {
   width: 100%;
   max-width: 200px;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 hr {
@@ -72,9 +73,19 @@ hr {
 #about h1,
 #about h2,
 #about h3,
-#about p,
 #about ul {
   text-align: left;
+}
+
+#about h1,
+#about h2 {
+  text-align: center;
+}
+
+
+
+#about p{
+  text-align:left;
 }
 
 #about ul {
@@ -88,10 +99,16 @@ hr {
   a:hover { color: #f77f00; }
 }
 
-#portfolio h1,
+#portfolio h1{
+   text-align: center;
+    font-size: 2em;
+  }
+  
+}
+
 #portfolio h3 {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 #portfolio h2 {
@@ -109,6 +126,17 @@ hr {
   a:link { color: #d62828; }
   a:hover { color: #f77f00; }
 }
+
+#contact ol {
+  text-align: left;
+}
+#contact ol {
+  list-style-position: left;
+}
+#contact p {
+   text-align: left
+}
+
 
 header{
   text-align: center;
